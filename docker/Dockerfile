@@ -1,4 +1,4 @@
-FROM python:3.8.3-buster
+FROM python:3.10.2-buster
 RUN apt-get -y update
 RUN apt-get install -y git vim emacs
 
